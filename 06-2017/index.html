@@ -2,32 +2,44 @@
   <html>
     <head>
       <title>Monica Howard</title>
-      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="style.css" /> <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     </head>
     <body>
       <header>
         <nav>
           <ul>
-            <li>MONICA HOWARD</li>
-            <li>my stuff</li>
-            <li>about</li>
+            <li class="monica-howard"><a href="index.html">MONICA HOWARD</a></li>
+            <li><a href="#MY-STUFF">my stuff</a></li>
+            <li><a href="#ABOUT-ME">about me</li>
           </ul>
         </nav>
+        <ul class="social">
+          <li><a href="https://twitter.com/iMonicaHoward"><img src="twitter.png" /></a></li>
+          <li><a href="https://www.linkedin.com/in/monica-howard/"><img src="linkedin.png" /></a></li>
+          <li><a href="https://github.com/MonicaHoward"><img src="github.png" /></a></li>
+        </ul>
       </header>
-      <section class="about-me">
-        <h1>Hi, my name is Monica Howard.</h1>
-        <p>I'm a front-end web developer. I like to create fun, interactive apps using javaScript.</p>
-        <p>Please check out some of my recent projects.</p>
+      <section class="about-me-container">
+        <a id="ABOUT-ME">
+          <div class="about-me">
+          <div class="photo"><img src="Monica-Howard.jpg" /></div>
+          <h1>Hi, my name is Monica Howard.</h1>
+          <p>I'm a front-end web developer. I like to create fun, interactive apps using javaScript.</p>
+          <p>Please check out some of my recent projects.</p>
+        </div></a>
       </section>
+      <a id="MY-STUFF">
       <section class="my-stuff">
-        <div></div>
-        <div></div>
-        <div></div>
+        <div class="work-row">
+          <div class="work"></div>
+          <div class="work"></div>
+          <div class="work"></div>
+        </div>
       </section>
+      </a>
       <footer>
-        <h3>Links</h3>
-        <p>LinkedIn</p>
-
+        <div class="inner-footer">
+        </div>
       </footer>
     </body>
   </html>
