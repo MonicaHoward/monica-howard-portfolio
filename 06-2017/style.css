@@ -62,10 +62,10 @@ header a,  header a:visited {
 header {
   background: #FCBA04;
   color: white;
-  height: 180px;
+  height: 20vh;
 }
 nav ul, .social {
-  margin: 0 80px;
+  margin: 0 15%;
 }
 nav li {
   float: left;
@@ -91,19 +91,33 @@ nav li {
   border-radius: 50%;
   height: 100px;
   width: 100px;
-
   text-align: center;
+}
+.photo h1, .photo p {
+	clear: both;
 }
 .my-stuff {
   background: #FFFFFF;
   margin: 0 80px;
 }
 .work {
-  border: 1px solid black;
   float: left;
   margin: 80px 10px;
   text-align: center;
   width: 31%;
+}
+.work img {
+	max-width: 30%;
+	max-height: 30%;
+}
+.docs-resume {
+	clear: both;
+	background: #FCBA04;
+}
+.resume {
+	padding: 5%;
+	margin: 0 auto;
+	display: block;
 }
 footer {
   background: #555555;
